@@ -3,6 +3,7 @@
 #### Context
 
 This Fall 2022, I'm taking an Assembly class, and our quizzes are mostly based on the texts in http://programmedlessons.org/AssemblyTutorial/index.html.
+
 During our lectures, I was copying and pasting texts into my own note document when I realized I should probably just write a script to do this.
 Of course, you should read the texts. However, for obscure information in the chapters that frequently appear in our quizzes, being able to ctrl+f a keyword to find more information about it is very helpful.
 
