@@ -4,7 +4,7 @@ var http = require('http')
 var fs = require('fs')
 
 // parameter: body html of page
-// returns: newly created html of the page
+// returns: complete valid html of the page
 function buildHtml(body) {
   var header = ''
 
