@@ -105,7 +105,7 @@ function createServer(body) {
     }
 
     // Promise.all resolves into an array of the returned values of each resolved promise
-    // so I just join the array into a single string, and use that as the body for my created server
+    // so I just join the array into a single string, and use that as the body for my created webpage
     Promise.all(promises).then((value) => {
       createServer(value.join(""))
     });
