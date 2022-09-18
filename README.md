@@ -12,7 +12,7 @@ I wrote this quick, rough script to combine all of the (selected) chapters into 
 #### How to Use
 1. install https://nodejs.org/en/
 2. download all of the files into a folder
-3. edit the **1. Chapter Numbers.txt**, typing the numbers of the chapters you want to display, separated by space
+3. edit the `1. Chapter Numbers.txt`, typing the numbers of the chapters you want to display, separated by space
 4. in command prompt, navigate to the folder you created using `cd {write the folder filepath here}`
 5. type `npm install node` to install node packages into the folder
 6. type `node index.js` to run the script
