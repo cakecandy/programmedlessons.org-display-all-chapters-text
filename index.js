@@ -3,7 +3,7 @@ const cheerio = require('cheerio')
 var http = require('http')
 var fs = require('fs')
 
-// parameter: body of page
+// parameter: body html of page
 // returns: newly created html of the page
 function buildHtml(body) {
   var header = ''
