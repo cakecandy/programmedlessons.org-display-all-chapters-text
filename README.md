@@ -11,10 +11,10 @@ Of course, you should read the texts. However, for obscure information in the ch
 I wrote this quick, rough script to combine all of the (selected) chapters into a single webpage for easy searching.
 
 #### How to Use
-1. install https://nodejs.org/en/
-2. download all of the files into a folder
-3. edit the `1. Chapter Numbers.txt`, typing the numbers of the chapters you want to display, separated by space
-4. in command prompt, navigate to the folder you created using `cd {write the folder filepath here}`
-5. type `npm install node` to install node packages into the folder
-6. type `node index.js` to run the script
-7. the webpage will be hosted on http://localhost:8080/
+1. Install https://nodejs.org/en/
+2. Download all of the files into a folder
+3. Edit the `1. Chapter Numbers.txt`, typing the numbers of the chapters you want to display, separated by space
+4. In Command Prompt, navigate to the folder you created using `cd {write the folder filepath here}`
+5. Type `npm install node` to install node packages into the folder
+6. Type `node index.js` to run the script
+7. The webpage will be hosted on http://localhost:8080/
