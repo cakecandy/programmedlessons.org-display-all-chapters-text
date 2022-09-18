@@ -24,9 +24,8 @@ async function getPageBody(currentChapter, currentPageNumber) {
 
   // wait for link to load
   try {
-    // Your code here
     const response = await axios.get(newlyCreatedLink)
-    // let us use $ like in jquery
+    // lets us use $ like in jquery
     const $ = cheerio.load(response.data)
 
     if (response.data.search("go to next page") != -1) {
@@ -36,7 +35,6 @@ async function getPageBody(currentChapter, currentPageNumber) {
       return "End of the Chapter"
     }
   } catch (error) {
-    // Handle rejection here
     console.log("failed to retrieve "+newlyCreatedLink)
   }
 }
